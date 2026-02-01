@@ -1,0 +1,24 @@
+# --- Đã có ---
+.env
+.venv
+*.log
+__pycache__/
+
+# --- Nên thêm ---
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Fine-tuning & Model artifacts (Rất nặng, không nên commit)
+outputs/
+lora_adapters/
+wandb/
+*.safetensors
+*.pt
+*.bin
+*.pth
+
+# Dataset (nếu bạn không muốn public dataset)
+# finetune/dataset/
+
+# System
+.DS_Store
